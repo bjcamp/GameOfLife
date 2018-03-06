@@ -1,3 +1,4 @@
+/*
 package com.testing;
 import java.awt.Canvas;
 import java.awt.Graphics;
@@ -6,8 +7,8 @@ import javax.swing.JFrame;
 public class DrawTests extends Canvas {
 
     public static int canvasSize = 400;
-    public static int numOfPixels = 10;
-    public static int pixelSize = 5;
+    public static int numOfPixels = 50;
+    public static int pixelSize = 4;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Test of Life");
@@ -33,6 +34,14 @@ public class DrawTests extends Canvas {
 
     }
 
+    public static int[][] initialMap(int mapNum) {
+        int[][] coordinates = new int[100][100]; // Create initial map of zeros
+
+        if (mapNum == 1) {
+
+        }
+    }
+
     public static int[][] randomPixels(int numOfPixels){
         // Function to create random pixel coordinates
         int[][] coordinates = new int[numOfPixels][2]; // Creates 2D array to store pixel locations
@@ -48,3 +57,5 @@ public class DrawTests extends Canvas {
 
 
 }
+
+*/
